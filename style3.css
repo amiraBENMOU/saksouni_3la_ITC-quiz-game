@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html,body{
+    background-color: rgb(51, 51, 156);
+    width:100%;
+    height:100%;
+ }
+ .logo img{
+    width:15%;
+    height:auto;
+    margin-top: 2%;
+    margin-left:3%;
+}
+     
+.main {
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:0%; 
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+}
+
+#gamer__name{
+    position: absolute;
+    top:10%; 
+    left:0%;
+    width:100%;
+    z-index: 1; 
+ 
+   
+
+
+}
+#gamer__name p{
+ 
+    color:white;
+    font-size: 40px;
+    text-align: center;
+}
+#game__part{
+    position: absolute;
+    z-index: 1;
+    top:18%;
+    left:45%;
+    font-size:30px;
+    
+}
+#game__part p{
+   
+    color:#F25050; 
+    letter-spacing: 1px;
+    font-weight: 20px; 
+    font-size: 50px;  
+    text-align:center;
+}
+#question{
+    position: absolute;
+    z-index: 1;
+    top:30%;
+    left:0%;
+    width:100%;
+    text-align: center;
+   
+
+}
+#question p{
+    color:white; 
+    letter-spacing: 1px;
+    font-weight: 20px; 
+    font-size: 40px; 
+    text-align: center;
+
+}
+.button__bloc{
+    position:absolute;/*cest necesaire relative fal foukaniya li nahasbou biha ou l absolute f koul div dakhla fiha */
+    z-index: 1;
+   margin-top:16%;
+   width:100%;
+   height:60%;
+  
+   
+ 
+
+
+
+}
+
+.btn-grid{
+    
+     display:grid;
+    grid-template-columns: repeat(2,1); /* to get 2 colums */
+     gap:5%;
+     padding-top:0%;
+     margin-top:5%;
+     margin-left: 33%;
+     margin-right: 25%;
+    
+    
+}
+
+
+.btn-grid button {
+   
+    background-color: white;
+    padding:1%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    width:80%;
+    border: 2px;
+    border-radius: 50px;
+    color: #FF0000;
+   /* position: relative;*/
+    
+}
+.btn-grid button:hover{
+    background-color: green;
+    color: white;
+}
+button p{
+    color:black;
+}
+.valider__button{
+    position:absolute;
+    z-index: 1;
+   margin-top:7%;
+   width: 100%;
+   height:50%;
+   
+   
+}
+.valider__button button{
+    width:25%;
+    margin-left:38%;
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    border: 2px;
+    border-radius: 50px;
+    color:white;
+    background-color: #F25050;
+}
+.valider__button p{
+  text-align: center;
+    margin-top:0%;
+    font-size: 20px;
+    color: #F25050;
+}
+.footer{
+    background-color:#122E5E;
+     z-index: 1;
+     width: 100%;
+     height:20%;
+     margin-top:75%;
+    position:absolute;
+}
+.text__footer p{
+    text-align: center;
+    margin-top:1%;
+    color:white;
+}
+.footer img{
+    margin-left:48%;
+    margin-top:0.5%;
+}
+.bg-model{
+    width:100%;
+    height:190%; background-color:rgba(0,0,0,0.9);  position:absolute; top:0;  justify-content: center; align-items: center; z-index: 1;
+
+  }
+  .model-content{
+    width:27%;height:45%;background-color:rgb(51, 51, 156);; opacity:1;border-radius:10px; margin-top:-45%; margin-left:2%;  position: sticky;
+    top:10%;
+  }
+  #win{
+      width:100%;
+      height:100%;
+   
+  }
+  
+  .model-content img {
+     width:20%;
+     height:auto;
+     margin-top:0%;
+  }
+  .game__over img {
+      width:60%;
+      height:60%;
+      margin-left: 22%;
+      margin-top:16%;
+  }
+  .game__over p{
+      text-align: center;
+      color: white;
+      font-size: 25px;
+  }
+  #end{
+    font-size: 18px;
+    margin-top: -2%;
+  }
+  .row{
+      margin-top: 20%;
+      margin-left: 14%;
+  }
+  
